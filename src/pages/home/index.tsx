@@ -223,7 +223,7 @@ function Timeline() {
     ...roles.map((r) => ({ dates: r.dates, title: r.role, org: r.org, note: r.place })),
   ];
   const msc = education[0];
-  items.splice(4, 0, { dates: msc.dates, title: msc.degree, org: msc.school, note: "2:1, 63% overall" });
+  items.splice(4, 0, { dates: msc.dates, title: msc.degree, org: msc.school, note: "Dissertation in EV suspension optimisation" });
 
   return (
     <section aria-labelledby="tl-h">

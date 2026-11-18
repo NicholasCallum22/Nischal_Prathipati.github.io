@@ -321,7 +321,7 @@ export const education = [
     degree: "MSc Automotive Engineering",
     school: "University of Leeds, United Kingdom",
     dates: "2022 – 2023",
-    detail: "Upper Second-Class Honours (2:1), 63% overall. Dissertation: Enhancing EV Performance through Suspension System Optimisation.",
+    detail: "Dissertation: Enhancing EV Performance through Suspension System Optimisation.",
   },
   {
     degree: "BTech Mechanical Engineering",
