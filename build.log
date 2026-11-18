@@ -1,0 +1,58 @@
+commit 13abb7eb3f484243147139d70540e846fba86093
+
+added 236 packages in 12s
+CHANGELOG.md
+LICENSE
+README.md
+files
+index.css
+index.d.css.ts
+metadata.json
+opsz.css
+package.json
+scss
+standard.css
+unicode.json
+wdth.css
+wght.css
+
+> nischal-prathipati-portfolio@2.0.0 prebuild
+> node scripts/generate-site-json.js config/site.yaml
+
+✅ Loaded YAML: config/site.yaml
+📄 Generated: src/data/generated/site.json
+{
+  name: 'Nischal Prathipati',
+  repoUrl: 'https://github.com/NicholasCallum22/Nischal_Prathipati.github.io',
+  description: 'Mechanical design engineer: product design, GD&T, FEA and DFM, with industrial experience at JCB, Caterpillar and Pitti Engineering.',
+  author: 'Nischal Prathipati',
+  repoName: 'Nischal_Prathipati.github.io',
+  base: '/'
+}
+✅ Site JSON generation complete!
+
+> nischal-prathipati-portfolio@2.0.0 build
+> tsc -b && vite build
+
+[36mvite v7.3.8 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32m✓[39m 2053 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                                                            [39m[1m[2m  2.06 kB[22m[1m[22m[2m │ gzip:   0.94 kB[22m
+[2mdist/[22m[2massets/[22m[32mbricolage-grotesque-vietnamese-standard-normal-Br4FGdAc.woff2  [39m[1m[2m 22.03 kB[22m[1m[22m
+[2mdist/[22m[2massets/[22m[32mbricolage-grotesque-latin-ext-standard-normal-qp-RdZgh.woff2   [39m[1m[2m 53.59 kB[22m[1m[22m
+[2mdist/[22m[2massets/[22m[32mbricolage-grotesque-latin-standard-normal-C5Lc8Qmc.woff2       [39m[1m[2m131.55 kB[22m[1m[22m
+[2mdist/[22m[2massets/[22m[35mindex-DjsHooQ3.css                                             [39m[1m[2m 71.54 kB[22m[1m[22m[2m │ gzip:  13.05 kB[22m
+[2mdist/[22m[2massets/[22m[36muse-pagetitle-C-TuXLzG.js                                      [39m[1m[2m  0.17 kB[22m[1m[22m[2m │ gzip:   0.17 kB[22m
+[2mdist/[22m[2massets/[22m[36mmail-D2GQ0CO1.js                                               [39m[1m[2m  0.21 kB[22m[1m[22m[2m │ gzip:   0.20 kB[22m
+[2mdist/[22m[2massets/[22m[36mnotfound-CrMOmZDK.js                                           [39m[1m[2m  0.51 kB[22m[1m[22m[2m │ gzip:   0.33 kB[22m
+[2mdist/[22m[2massets/[22m[36mevidence-BCOG64gE.js                                           [39m[1m[2m  1.02 kB[22m[1m[22m[2m │ gzip:   0.44 kB[22m
+[2mdist/[22m[2massets/[22m[36mwork-Cc5__ojn.js                                               [39m[1m[2m  2.48 kB[22m[1m[22m[2m │ gzip:   1.16 kB[22m
+[2mdist/[22m[2massets/[22m[36mresearch-cTdWZX8o.js                                           [39m[1m[2m  3.24 kB[22m[1m[22m[2m │ gzip:   1.24 kB[22m
+[2mdist/[22m[2massets/[22m[36mcases-DygLpMdv.js                                              [39m[1m[2m  5.13 kB[22m[1m[22m[2m │ gzip:   2.25 kB[22m
+[2mdist/[22m[2massets/[22m[36mexperience-FAgmoB8-.js                                         [39m[1m[2m  5.52 kB[22m[1m[22m[2m │ gzip:   1.66 kB[22m
+[2mdist/[22m[2massets/[22m[36mhome-DFt3aiZF.js                                               [39m[1m[2m 12.63 kB[22m[1m[22m[2m │ gzip:   4.63 kB[22m
+[2mdist/[22m[2massets/[22m[36mpage-DJtsEDJX.js                                               [39m[1m[2m215.00 kB[22m[1m[22m[2m │ gzip:  66.91 kB[22m
+[2mdist/[22m[2massets/[22m[36mindex-Bv6HzMga.js                                              [39m[1m[2m475.55 kB[22m[1m[22m[2m │ gzip: 152.74 kB[22m
+[32m✓ built in 3.02s[39m
